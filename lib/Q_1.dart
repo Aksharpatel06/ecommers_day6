@@ -47,10 +47,11 @@ class _emiScreenState extends State<emiScreen> {
                       )
                     ],
                   ),
+                  SizedBox(height: 10,),
                   Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 100.0),
+                        padding: const EdgeInsets.only(left: 120.0),
                         child: Text(
                           '₹ ${EMIAmt.toStringAsFixed(2)}',
                           style: TextStyle(fontSize: 30, color: Colors.white),
