@@ -1,4 +1,5 @@
 import 'package:ecommers_day6/Q_1.dart';
+import 'package:ecommers_day6/Q_2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,9 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(useMaterial3: true),
       debugShowCheckedModeBanner: false,
+      initialRoute: '/',
       routes: {
         '/':(context) => emiScreen(),
+        // '/':(context) => product(),
       },
     );
   }

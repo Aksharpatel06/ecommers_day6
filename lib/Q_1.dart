@@ -37,25 +37,21 @@ class _emiScreenState extends State<emiScreen> {
               child: Column(
                 children: [
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Padding(
-                        padding: const EdgeInsets.only(left: 137.0),
-                        child: Text(
-                          'Your loan EMI is',
-                          style: TextStyle(fontSize: 12, color: Colors.white),
-                        ),
+                      Text(
+                        'Your loan EMI is',
+                        style: TextStyle(fontSize: 12, color: Colors.white),
                       )
                     ],
                   ),
                   SizedBox(height: 10,),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Padding(
-                        padding: const EdgeInsets.only(left: 120.0),
-                        child: Text(
-                          '₹ ${EMIAmt.toStringAsFixed(2)}',
-                          style: TextStyle(fontSize: 30, color: Colors.white),
-                        ),
+                      Text(
+                        '₹ ${EMIAmt.toStringAsFixed(2)}',
+                        style: TextStyle(fontSize: 30, color: Colors.white),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(top: 12.0),
