@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/':(context) => emiScreen(),
-        // '/':(context) => product(),
+        // '/':(context) => emiScreen(),
+        '/':(context) => product(),
       },
     );
   }

@@ -125,7 +125,6 @@ class _emiScreenState extends State<emiScreen> {
                       value: r,
                       max: 100,
                       min: 0,
-                      divisions: 10,
                       activeColor: Colors.grey,
                       thumbColor: Color(0xff1F295C),
                       onChanged: (value) {
